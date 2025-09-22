@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ocean Portfolio</title>
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script/script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🌊 OceanDev</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="btn-primary">Hire Me</button>
+      <img src="https://i.pravatar.cc/40" alt="profile" class="profile">
+      <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-text">
+      <h1>Hello, I’m <span class="highlight">OceanDev</span></h1>
+      <p>A passionate web developer who loves creating smooth, responsive, and modern websites.</p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Get Started</button>
+        <button class="btn-secondary">Learn More</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://img.icons8.com/clouds/500/laptop.png" alt="Laptop illustration">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Hello! I’m a developer with strong passion for building clean and modern websites. I enjoy working with HTML, CSS, JavaScript, and learning new frameworks.</p>
+        <ul class="skills">
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+      <div class="about-image">
+        <img src="https://i.pravatar.cc/40" alt="My Photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="skills-container">
+      <h2>My Skills</h2>
+      <p class="skills-subtitle">Some of the technologies I work with</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>Building responsive and interactive UIs using React, HTML5, and CSS3.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <p>Developing APIs and server-side apps with Node.js and Express.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Database</h3>
+          <p>Working with MySQL and MongoDB for data-driven apps.</p>
+        </div>
+        <div class="skill-card">
+          <h3>UI/UX</h3>
+          <p>Designing user-friendly and visually appealing interfaces.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="projects-container">
+      <h2>Projects</h2>
+      <p class="projects-subtitle">Some of my featured work</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1">
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>A fully responsive personal portfolio website.</p>
+            <a href="#" class="btn-view">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="project2.jpg" alt="Project 2">
+          <div class="project-content">
+            <h3>E-commerce App</h3>
+            <p>An online store with product listings and cart system.</p>
+            <a href="#" class="btn-view">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="project3.jpg" alt="Project 3">
+          <div class="project-content">
+            <h3>Blog Platform</h3>
+            <p>A simple blogging platform with markdown support.</p>
+            <a href="#" class="btn-view">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+  <div class="contact-container">
+    <form id="contact-form" class="contact-form">
+      <h2>Contact Me</h2>
+      <p>Kirim pesan langsung ke email saya dengan form ini</p>
+
+      <input type="text" name="user_name" placeholder="Nama Anda" required>
+      <input type="email" name="user_email" placeholder="Email Anda" required>
+      <textarea name="message" placeholder="Pesan Anda..." required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+
+    <div class="contact-info">
+      <img src="assets/contact.png" alt="Contact">
+      <ul>
+        <li><i class="fas fa-envelope"></i> emailkamu@gmail.com</li>
+        <li><i class="fas fa-phone"></i> +62 812-xxxx-xxxx</li>
+      </ul>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>MyPortfolio</h3>
+        <p>Fast web development, at your fingertips.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>APP</h4>
+          <a href="#">Trade</a>
+          <a href="#">Explore</a>
+        </div>
+        <div>
+          <h4>NEED HELP?</h4>
+          <a href="#">Contact Us</a>
+          <a href="#">Blog</a>
+        </div>
+        <div>
+          <h4>COMMUNITY</h4>
+          <a href="#">Twitter</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>MyPortfolio. All Rights Reserved © 2025.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
